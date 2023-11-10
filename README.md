@@ -1,48 +1,52 @@
-# AI Face Detection with age, gender, and ethnicity recognition
+# AI face detection with age, gender, and ethnicity recognition
 
-## - External API
+## Summary
+
+This AI-powered face detection application can detect faces at various angles and detect multiple faces in a photo simultaneously with high accuracy. It can also recognize the age, gender, and ethnicity of each detected face.
+
+## External API
 
 This application uses an external API to provide the face detection results. All external API calls are performed on the server using Next.js API routes resulting in faster response times and more security by hiding the API key from the client.
 
-## - BFF (Backend for Frontend)
+## BFF (Backend for Frontend)
 
 The data received from the external API is validated and transformed to contain only the needed information before being sent to the client resulting in less bandwidth usage and easier debugging.
 
-## - File Handling
+## File Handling
 
 Users have the ability to upload their own images for face detection. This application handles the upload process, file handling, and file limit enforcement (size, type, count).
 
-## - Error Handling
+## Error Handling
 
 This application handles errors gracefully regardless of which part of the process they occur in.
 
-## - UI Composition
+## UI Composition
 
 The face detection result is rendered on top of the image with size, rotation, and opacity adjustments to be both readable and elegant.
 
-## - Skeleton UI
+## Skeleton UI
 
 During the loading process, a custom skeleton UI with shimmering animation is used to provide feedback to the user and prevent unwanted layout shifts.
 
-## - SEO Optimization
+## SEO Optimization
 
 This application is optimized for search engines using metadata like description, keywords, OpenGraph, Twitter card, and more. 
 
-## - Asset Optimization
+## Asset Optimization
 
 All of the images used in this application have responsive sizes according to the device size to limit bandwidth usage and deliver a great end-user experience. All of the fonts are cached and served from the same server for faster load times.
 
-## - End-to-End Testing
+## End-to-End Testing
 
 This application is tested with Cypress using end-to-end testing. Multiple face detection workflows are tested using intercepted API responses.
 
-## - Lighthouse benchmark
+## Lighthouse Benchmark
 
 This Application has a full 100 score on the Lighthouse benchmark.
 
 ![100 Lighthouse score](/screenshots/lighthouse.png)
 
-## - Tech Stack
+## Tech Stack
 - TypeScript
 - React.js
 - Next.js v14
@@ -51,7 +55,7 @@ This Application has a full 100 score on the Lighthouse benchmark.
 - Zod
 - Cypress
 
-## - Screenshots
+## Screenshots
 - Desktop
 
 ![Desktop Screenshot Home](/screenshots/screenshot-desktop-home.png) ![Desktop Screenshot Home](/screenshots/screenshot-desktop-result.png)
@@ -59,7 +63,7 @@ This Application has a full 100 score on the Lighthouse benchmark.
 
 ![Mobile Screenshot Home](/screenshots/screenshot-mobile-home.png) ![Desktop Screenshot Home](/screenshots/screenshot-mobile-result.png)
 
-## - Author
+## Author
 Rashid Shamloo
 
 - Portfolio - [rashidshamloo.com](https://www.rashidshamloo.com)
