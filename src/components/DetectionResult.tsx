@@ -28,8 +28,8 @@ const DetectionResult = ({ imgUrl }: { imgUrl: string }) => {
   return (
     <div
       className={clsx(
-        'relative w-full rounded-md overflow-hidden border-2 border-cyan-400/10 bg-cyan-100/10',
-        !imgLoaded ? 'aspect-[3/2] max-w-[800px]' : 'max-w-full'
+        'relative w-full max-w-[800px] rounded-md overflow-hidden border-2 border-cyan-400/10 bg-cyan-100/10',
+        !imgLoaded ? 'aspect-[3/2]' : ''
       )}
     >
       <Image
@@ -37,11 +37,8 @@ const DetectionResult = ({ imgUrl }: { imgUrl: string }) => {
         alt="Result Image"
         width="0"
         height="0"
-        className={clsx(
-          'w-full max-w-[800px] max-h-[800px]',
-          isLoading ? 'opacity-60' : ''
-        )}
-        sizes="800px"
+        className={clsx('w-full max-h-[800px]', isLoading ? 'opacity-60' : '')}
+        sizes="1024px"
         onLoad={() => setImgLoaded(true)}
         priority
       />
