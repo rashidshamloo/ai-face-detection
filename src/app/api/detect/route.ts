@@ -20,7 +20,7 @@ import {
 } from '@/types/types';
 
 // fetch detection result from the external API
-export const getDetectionResult = async (
+const getDetectionResult = async (
   imgUrl: string
 ): Promise<detectionResultExternalApiResponse> => {
   const url = API_URL + imgUrl;

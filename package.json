@@ -1,5 +1,5 @@
 {
-  "name": "mercedes-benz-catalogue",
+  "name": "ai-face-detection",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -34,7 +34,7 @@
     "eslint": "^8.53.0",
     "eslint-config-next": "14.0.1",
     "postcss": "^8",
-    "start-server-and-test": "^2.0.2",
+    "start-server-and-test": "^1.11.0",
     "tailwindcss": "^3.3.5",
     "typescript": "^5.2.2"
   }
