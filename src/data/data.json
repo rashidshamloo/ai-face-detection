@@ -1,0 +1,208 @@
+[
+  {
+    "url": "/images/samples/01.jpg",
+    "width": 800,
+    "height": 534,
+    "tags": [
+      {
+        "width": 10.88,
+        "height": 20.41,
+        "roll": 1,
+        "attributes": {
+          "gender": { "value": "female", "confidence": 32 },
+          "age_est": { "value": "2", "confidence": 50 },
+          "ethnicity": {
+            "white": { "value": "true", "confidence": 80 },
+            "black": { "value": "false", "confidence": 3 },
+            "asian": { "value": "false", "confidence": 14 },
+            "indian": { "value": "false", "confidence": 2 },
+            "hispanic": { "value": "false", "confidence": 2 }
+          }
+        },
+        "center": { "x": 47.38, "y": 53 }
+      },
+      {
+        "width": 11.25,
+        "height": 23.41,
+        "roll": -9,
+        "attributes": {
+          "gender": { "value": "female", "confidence": 50 },
+          "age_est": { "value": "34", "confidence": 50 },
+          "ethnicity": {
+            "white": { "value": "true", "confidence": 90 },
+            "black": { "value": "false", "confidence": 1 },
+            "asian": { "value": "false", "confidence": 7 },
+            "indian": { "value": "false", "confidence": 1 },
+            "hispanic": { "value": "false", "confidence": 1 }
+          }
+        },
+        "center": { "x": 66.75, "y": 33.33 }
+      },
+      {
+        "width": 10.75,
+        "height": 16.67,
+        "roll": -13,
+        "attributes": {
+          "gender": { "value": "female", "confidence": 30 },
+          "age_est": { "value": "1", "confidence": 50 },
+          "ethnicity": {
+            "white": { "value": "true", "confidence": 76 },
+            "black": { "value": "false", "confidence": 5 },
+            "asian": { "value": "false", "confidence": 5 },
+            "indian": { "value": "false", "confidence": 7 },
+            "hispanic": { "value": "false", "confidence": 6 }
+          }
+        },
+        "center": { "x": 75.62, "y": 47.19 }
+      }
+    ]
+  },
+
+  {
+    "url": "/images/samples/02.jpg",
+    "pid": "F@05309d18751ee6546cfa933519df274b_7a31294d055b8",
+    "width": 800,
+    "height": 533,
+    "tags": [
+      {
+        "uids": [],
+        "label": null,
+        "confirmed": false,
+        "manual": false,
+        "width": 7.62,
+        "height": 13.88,
+        "yaw": -3,
+        "roll": 18,
+        "pitch": -14,
+        "attributes": {
+          "gender": { "value": "female", "confidence": 13 },
+          "age_est": { "value": "38", "confidence": 50 },
+          "ethnicity": {
+            "white": { "value": "false", "confidence": 11 },
+            "black": { "value": "false", "confidence": 4 },
+            "asian": { "value": "false", "confidence": 16 },
+            "indian": { "value": "false", "confidence": 7 },
+            "hispanic": { "value": "true", "confidence": 62 }
+          }
+        },
+        "center": { "x": 49.62, "y": 39.02 }
+      }
+    ]
+  },
+  {
+    "url": "/images/samples/03.jpg",
+    "width": 800,
+    "height": 533,
+    "tags": [
+      {
+        "width": 7.38,
+        "height": 12.95,
+        "roll": 7,
+        "attributes": {
+          "gender": { "value": "female", "confidence": 54 },
+          "age_est": { "value": "28", "confidence": 50 },
+          "ethnicity": {
+            "white": { "value": "false", "confidence": 8 },
+            "black": { "value": "false", "confidence": 2 },
+            "asian": { "value": "true", "confidence": 84 },
+            "indian": { "value": "false", "confidence": 2 },
+            "hispanic": { "value": "false", "confidence": 4 }
+          }
+        },
+        "center": { "x": 44.75, "y": 30.39 }
+      },
+      {
+        "width": 8.0,
+        "height": 15.2,
+        "roll": -7,
+        "attributes": {
+          "gender": { "value": "male", "confidence": 20 },
+          "age_est": { "value": "41", "confidence": 50 },
+          "ethnicity": {
+            "white": { "value": "false", "confidence": 4 },
+            "black": { "value": "false", "confidence": 3 },
+            "asian": { "value": "true", "confidence": 89 },
+            "indian": { "value": "false", "confidence": 1 },
+            "hispanic": { "value": "false", "confidence": 3 }
+          }
+        },
+        "center": { "x": 68.0, "y": 19.89 }
+      },
+      {
+        "width": 8.88,
+        "height": 14.63,
+        "roll": 6,
+        "attributes": {
+          "gender": { "value": "male", "confidence": 8 },
+          "age_est": { "value": "20", "confidence": 50 },
+          "ethnicity": {
+            "white": { "value": "false", "confidence": 1 },
+            "black": { "value": "false", "confidence": 1 },
+            "asian": { "value": "true", "confidence": 97 },
+            "indian": { "value": "false", "confidence": 0 },
+            "hispanic": { "value": "false", "confidence": 1 }
+          }
+        },
+        "center": { "x": 27.38, "y": 24.2 }
+      },
+      {
+        "width": 7.62,
+        "height": 15.2,
+        "roll": 6,
+        "attributes": {
+          "gender": { "value": "female", "confidence": 21 },
+          "age_est": { "value": "28", "confidence": 50 },
+          "ethnicity": {
+            "white": { "value": "false", "confidence": 5 },
+            "black": { "value": "false", "confidence": 3 },
+            "asian": { "value": "true", "confidence": 84 },
+            "indian": { "value": "false", "confidence": 4 },
+            "hispanic": { "value": "false", "confidence": 4 }
+          }
+        },
+        "center": { "x": 79.88, "y": 32.08 }
+      }
+    ]
+  },
+  {
+    "url": "/images/samples/04.jpg",
+    "width": 800,
+    "height": 533,
+    "tags": [
+      {
+        "width": 6.38,
+        "height": 11.82,
+        "roll": -2,
+        "attributes": {
+          "gender": { "value": "male", "confidence": 21 },
+          "age_est": { "value": "27", "confidence": 50 },
+          "ethnicity": {
+            "white": { "value": "false", "confidence": 2 },
+            "black": { "value": "true", "confidence": 91 },
+            "asian": { "value": "false", "confidence": 4 },
+            "indian": { "value": "false", "confidence": 2 },
+            "hispanic": { "value": "false", "confidence": 2 }
+          }
+        },
+        "center": { "x": 59.5, "y": 17.26 }
+      },
+      {
+        "width": 5.75,
+        "height": 10.51,
+        "roll": -1,
+        "attributes": {
+          "gender": { "value": "female", "confidence": 35 },
+          "age_est": { "value": "36", "confidence": 50 },
+          "ethnicity": {
+            "white": { "value": "true", "confidence": 94 },
+            "black": { "value": "false", "confidence": 1 },
+            "asian": { "value": "false", "confidence": 3 },
+            "indian": { "value": "false", "confidence": 1 },
+            "hispanic": { "value": "false", "confidence": 1 }
+          }
+        },
+        "center": { "x": 39.88, "y": 22.7 }
+      }
+    ]
+  }
+]
