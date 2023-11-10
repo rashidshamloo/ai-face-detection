@@ -28,8 +28,8 @@ const DetectionResult = ({ imgUrl }: { imgUrl: string }) => {
   return (
     <div
       className={clsx(
-        'relative max-w-[800px] rounded-md overflow-hidden border-2 border-cyan-400/10 bg-cyan-100/10',
-        !imgLoaded ? 'w-full aspect-[3/2]' : ''
+        'relative w-full rounded-md overflow-hidden border-2 border-cyan-400/10 bg-cyan-100/10',
+        !imgLoaded ? 'aspect-[3/2] max-w-[800px]' : 'max-w-full'
       )}
     >
       <Image
