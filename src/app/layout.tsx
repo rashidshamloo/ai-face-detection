@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     'rashid shamloo',
   ],
   icons: { icon: '/images/favicon.png' },
-  metadataBase: new URL('https://www.rashidshamloo.com'),
+  metadataBase: new URL('https://ai-face-detection.rashidshamloo.com'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
