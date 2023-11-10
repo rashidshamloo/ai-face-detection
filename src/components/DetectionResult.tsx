@@ -1,3 +1,6 @@
+// react
+import { useState } from 'react';
+
 // next
 import Image from 'next/image';
 
@@ -11,7 +14,10 @@ import DetectionSkeleton from '@/components/skeleton/DetectionSkeleton';
 import clsx from 'clsx';
 
 const DetectionResult = ({ imgUrl }: { imgUrl: string }) => {
-  const { data, isError, isSuccess } = useGetDetectionDataQuery(imgUrl);
+  const [imgLoaded, setImgLoaded] = useState(false);
+
+  const { data, isError, isSuccess, isLoading } =
+    useGetDetectionDataQuery(imgUrl);
 
   if (isError) {
     return (
@@ -23,7 +29,7 @@ const DetectionResult = ({ imgUrl }: { imgUrl: string }) => {
     <div
       className={clsx(
         'relative max-w-[800px] rounded-md overflow-hidden border-2 border-cyan-400/10 bg-cyan-100/10',
-        !isSuccess ? 'w-full aspect-[1.5]' : ''
+        !imgLoaded ? 'w-full aspect-[1.5]' : ''
       )}
     >
       <Image
@@ -33,11 +39,12 @@ const DetectionResult = ({ imgUrl }: { imgUrl: string }) => {
         height="0"
         className={clsx(
           'w-full max-w-[800px] max-h-[800px]',
-          !isSuccess ? 'opacity-60' : ''
+          isLoading ? 'opacity-60' : ''
         )}
         sizes="800px"
+        onLoad={() => setImgLoaded(true)}
       />
-      {!isSuccess && <DetectionSkeleton />}
+      {isLoading && <DetectionSkeleton />}
       {isSuccess &&
         data.tags.map((tag: any, i: number) => (
           <div
