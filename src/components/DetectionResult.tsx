@@ -11,8 +11,7 @@ import DetectionSkeleton from '@/components/skeleton/DetectionSkeleton';
 import clsx from 'clsx';
 
 const DetectionResult = ({ imgUrl }: { imgUrl: string }) => {
-  const { data, isError, isLoading, isSuccess } =
-    useGetDetectionDataQuery(imgUrl);
+  const { data, isError, isSuccess } = useGetDetectionDataQuery(imgUrl);
 
   if (isError) {
     return (
@@ -23,8 +22,8 @@ const DetectionResult = ({ imgUrl }: { imgUrl: string }) => {
   return (
     <div
       className={clsx(
-        'w-full relative max-w-[800px] rounded-md overflow-hidden border-2 border-cyan-400/10 bg-cyan-100/10',
-        isLoading ? 'aspect-[1.5]' : ''
+        'relative max-w-[800px] rounded-md overflow-hidden border-2 border-cyan-400/10 bg-cyan-100/10',
+        !isSuccess ? 'w-full aspect-[1.5]' : ''
       )}
     >
       <Image
@@ -34,11 +33,11 @@ const DetectionResult = ({ imgUrl }: { imgUrl: string }) => {
         height="0"
         className={clsx(
           'w-full max-w-[800px] max-h-[800px]',
-          isLoading ? 'opacity-60' : ''
+          !isSuccess ? 'opacity-60' : ''
         )}
         sizes="800px"
       />
-      {isLoading && <DetectionSkeleton />}
+      {!isSuccess && <DetectionSkeleton />}
       {isSuccess &&
         data.tags.map((tag: any, i: number) => (
           <div
