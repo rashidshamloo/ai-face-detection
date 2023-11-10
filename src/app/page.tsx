@@ -18,7 +18,7 @@ export default function Home({}) {
 
   return (
     <Provider>
-      <main className="flex min-h-screen flex-col items-center justify-start px-4 md:px-24 pt-24 pb-8 xl:container relative mx-auto gap-8 text-cyan-50">
+      <main className="flex min-h-screen flex-col items-center justify-start px-2 md:px-24 pt-24 pb-8 xl:container relative mx-auto gap-8 text-cyan-50">
         <Title />
 
         {imgUrl !== '' ? (
