@@ -1,4 +1,4 @@
-# AI Face Detection with age, gender, and ethnicity recognition
+# AI face detection with age, gender, and ethnicity recognition
 
 ## Summary
 
