@@ -25,6 +25,7 @@ const BackgroundElements = () => {
           width="654"
           height="800"
           sizes="(max-width: 480px) 20vw, (max-width: 768px) 33vw, 654px"
+          priority
         />
       </div>
     </>
