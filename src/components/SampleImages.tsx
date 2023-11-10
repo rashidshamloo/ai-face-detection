@@ -25,7 +25,7 @@ const SampleImages = ({
             alt={`Sample Image ${i + 1}`}
             src={`/images/samples/${String(i + 1).padStart(2, '0')}.jpg`}
             className="object-cover"
-            sizes="500px"
+            sizes="(max-width: 480px) 50vw, (max-width: 768px) 33vw, 20vw"
             fill
           />
         </button>

@@ -22,9 +22,9 @@ const BackgroundElements = () => {
           className="max-w-[100px] sm:max-w-[150px] md:max-w-[300px] lg:max-w-[400px] opacity-80"
           src="/images/face.png"
           alt="Face"
-          width={654}
-          height={800}
-          priority
+          width="654"
+          height="800"
+          sizes="(max-width: 480px) 20vw, (max-width: 768px) 33vw, 654px"
         />
       </div>
     </>
