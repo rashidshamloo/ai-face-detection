@@ -15,6 +15,7 @@ const DetectionSkeleton = () => {
         height="150"
         alt="Face Detection Icon"
         className="invert opacity-50"
+        priority
       />
     </div>
   );

@@ -18,7 +18,7 @@ export default function Home({}) {
 
   return (
     <Provider>
-      <main className="flex min-h-screen flex-col items-center justify-start px-4 md:px-24 pt-24 xl:container relative mx-auto gap-8 text-cyan-50">
+      <main className="flex min-h-screen flex-col items-center justify-start px-4 md:px-24 pt-24 pb-8 xl:container relative mx-auto gap-8 text-cyan-50">
         <Title />
 
         {imgUrl !== '' ? (
@@ -33,7 +33,7 @@ export default function Home({}) {
           </>
         ) : (
           <>
-            <p className="text-lg mt-8 md:mt-16 text-center max-w-[80%] md:max-w-full">
+            <p className="text-lg text-center max-w-[80%] md:max-w-full">
               Select one of the sample images below or upload your own image to
               start
             </p>
