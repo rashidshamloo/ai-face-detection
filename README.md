@@ -58,10 +58,10 @@ This Application has a full 100 score on the Lighthouse benchmark.
 ## Screenshots
 - Desktop
 
-![Desktop Screenshot Home](/screenshots/screenshot-desktop-home.png) ![Desktop Screenshot Home](/screenshots/screenshot-desktop-result.png)
+![Desktop Screenshot Home](/screenshots/screenshot-desktop-home.png) ![Desktop Screenshot Result](/screenshots/screenshot-desktop-result.png)
 - Mobile
 
-![Mobile Screenshot Home](/screenshots/screenshot-mobile-home.png) ![Desktop Screenshot Home](/screenshots/screenshot-mobile-result.png)
+![Mobile Screenshot Home](/screenshots/screenshot-mobile-home.png) ![Mobile Screenshot Result](/screenshots/screenshot-mobile-result.png)
 
 ## Author
 Rashid Shamloo
