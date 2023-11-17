@@ -4,6 +4,8 @@
 
 This AI-powered face detection application can detect faces at various angles and detect multiple faces in a photo simultaneously with high accuracy. It can also recognize the age, gender, and ethnicity of each detected face.
 
+Live Demo: [https://ai-face-detection.rashidshamloo.com/](https://ai-face-detection.rashidshamloo.com/)
+
 ## External API
 
 This application uses an external API to provide the face detection results. All external API calls are performed on the server using Next.js API routes resulting in faster response times and more security by hiding the API key from the client.
